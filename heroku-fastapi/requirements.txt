@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+# On utilise l'index de PyTorch pour récupérer uniquement les versions CPU 
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu 
+torchvision==0.20.1+cpu
+segmentation-models-pytorch
+Pillow
+numpy
+python-multipart
